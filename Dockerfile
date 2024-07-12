@@ -10,6 +10,8 @@ RUN apt-get install -y --no-install-recommends \
 	qt5ct \
 	ros-jazzy-gz-ros2-control \
 	ros-jazzy-image-geometry \
+	ros-jazzy-nav2-bringup \
+	ros-jazzy-nav2-rviz-plugins \
 	ros-jazzy-ros-gz-bridge \
 	ros-jazzy-ros-gz-image \
 	ros-jazzy-ros-gz-sim \
@@ -20,9 +22,7 @@ RUN apt-get install -y --no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
 
 #	ros-jazzy-grid-map-rviz-plugin \
-#	ros-jazzy-nav2-bringup \
-#	ros-jazzy-nav2-rviz-plugins \
 
 # common commands added to history
-#RUN echo "ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true" \
-#	>> /root/.bash_history
+RUN echo "ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true" \
+	>> /root/.bash_history

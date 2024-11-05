@@ -20,6 +20,7 @@ RUN apt-get install -y --no-install-recommends \
 	ros-jazzy-rqt-graph \
 	ros-jazzy-rqt-image-view \
 	ros-jazzy-rviz2 \
+	ros-jazzy-tf2-tools \
 	&& rm -rf /var/lib/apt/lists/*
 
 

@@ -8,7 +8,7 @@ for various robotics purposes at UNF, club, research, and development.
 This container contains the initial graphic environment to build and run ROS 2
 simulations using Gazebo and RViz2.
 
-[Latest](https://hub.docker.com/r/unfrobotics/docker-ros2-jazzy-gz-rviz2/tags)
+[Docker Hub Tags](https://hub.docker.com/r/unfrobotics/docker-ros2-jazzy-gz-rviz2/tags) - Latest v6
 
 ## Docker Pull Command
 

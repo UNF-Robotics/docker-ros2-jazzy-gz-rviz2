@@ -1,4 +1,4 @@
-FROM unfrobotics/docker-ros2-jazzy:latest
+FROM unfrobotics/docker-ros2-jazzy:v7
 
 # update base system
 RUN apt-get update && apt-get upgrade -y --no-install-recommends
